@@ -1,0 +1,38 @@
+exercise,scheme,parameter,criterion,weight,direction,note
+bai3,default,a1,growth,0.15,benefit,Bộ trọng số mặc định chỉ số ưu tiên ngành (Câu 3.4.2)
+bai3,default,a2,productivity,0.15,benefit,Đại diện bằng GDP share
+bai3,default,a3,spillover,0.20,benefit,Hệ số lan tỏa
+bai3,default,a4,export,0.15,benefit,Xuất khẩu
+bai3,default,a5,employment,0.10,benefit,Việc làm
+bai3,default,a6,ai_readiness,0.20,benefit,Mức sẵn sàng AI
+bai3,default,a7,automation_risk,0.15,cost,Rủi ro tự động hóa (trừ đi)
+bai3,growth,a1,growth,0.25,benefit,Bộ Định hướng tăng trưởng (Câu 3.4.4)
+bai3,growth,a2,productivity,0.20,benefit,
+bai3,growth,a3,spillover,0.10,benefit,
+bai3,growth,a4,export,0.25,benefit,
+bai3,growth,a5,employment,0.05,benefit,
+bai3,growth,a6,ai_readiness,0.10,benefit,
+bai3,growth,a7,automation_risk,0.05,cost,
+bai3,inclusive,a1,growth,0.10,benefit,Bộ Định hướng bao trùm (Câu 3.4.4)
+bai3,inclusive,a2,productivity,0.10,benefit,
+bai3,inclusive,a3,spillover,0.20,benefit,
+bai3,inclusive,a4,export,0.10,benefit,
+bai3,inclusive,a5,employment,0.25,benefit,
+bai3,inclusive,a6,ai_readiness,0.10,benefit,
+bai3,inclusive,a7,automation_risk,0.15,cost,
+bai6,expert,w1,grdp_per_capita,0.10,benefit,Trọng số chuyên gia TOPSIS 6 vùng (Câu 6.4.1)
+bai6,expert,w2,fdi_registered,0.10,benefit,
+bai6,expert,w3,digital_index,0.15,benefit,
+bai6,expert,w4,ai_readiness,0.20,benefit,
+bai6,expert,w5,trained_labor,0.15,benefit,
+bai6,expert,w6,rd_intensity,0.15,benefit,
+bai6,expert,w7,internet_penetration,0.05,benefit,
+bai6,expert,w8,gini_coef,0.10,cost,Gini càng thấp càng tốt
+bai7,policy,f1,growth_gdp,0.40,benefit,Trọng số TOPSIS chọn nghiệm Pareto (Câu 7.4.3)
+bai7,policy,f2,inclusion_gini,0.25,cost,Giảm bất bình đẳng vùng
+bai7,policy,f3,emission_co2,0.20,cost,Giảm phát thải CO2
+bai7,policy,f4,data_security,0.15,cost,Giảm rủi ro an ninh dữ liệu
+bai11,welfare,w1,delta_gdp,0.40,benefit,Trọng số hàm phần thưởng Q-learning (Mục 11.2)
+bai11,welfare,w2,delta_unemploy,0.25,cost,Tăng thất nghiệp
+bai11,welfare,w3,cyber_risk,0.20,cost,Rủi ro an ninh mạng
+bai11,welfare,w4,emission,0.15,cost,Phát thải
